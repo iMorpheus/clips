@@ -2,7 +2,7 @@
 
 # Purpose: Download Twitch clip to local machine
 # Dependency: youtube-dl
-
+# Supports: TwitchLOLs Twitter Hashtag: https://twitter.com/search?q=(%23TwitchLOLs)%20(from%3AiMorpheus)&src=typed_query&f=live
 function Clipper()
 {
 read -p "Clip Name: " -e ClipName # Name of file
